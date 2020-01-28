@@ -16,14 +16,14 @@ just like filebeat itself
 These are "go" programs. To use, install a golang compiler or runtime, 
 and use either
 
-  go run checkbeat.go
+    go run checkbeat.go
 
 or
 
-  go build checkbeat.go 
-  
-  ./checkbeat  ....args here...
+    go build checkbeat.go 
+    ./checkbeat  ....args here...
 
 
-
+The advantage of compiling is that you can copy the executable to another system,
+and not need any go runtime or library on that system
 
