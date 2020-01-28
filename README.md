@@ -20,7 +20,8 @@ and use either
 
 or
 
-  go build checkbeat.go
+  go build checkbeat.go 
+  
   ./checkbeat  ....args here...
 
 
