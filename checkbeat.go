@@ -74,7 +74,7 @@ func main() {
 				fmt.Println("File is fully processed")
 				os.Exit(0)
 			} else {
-				fmt.Println("File is NOT fully processed!")
+				fmt.Println("File %s is NOT fully processed!",targetfile)
 				os.Exit(1)
 			}
 		}
