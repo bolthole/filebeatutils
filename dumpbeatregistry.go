@@ -15,14 +15,14 @@ import (
 )
 
 /* Based on file beat 5.6 registry format */
-type OSFileRef struct {
+type FileStateOS struct {
 	Inode uint64
 	Device uint64 /* devid num */
 }
 type FilebeatEntry struct {
 	Source string
 	Offset int64
-	OSFileRef OSFileRef
+	FileStateOS FileStateOS
 	// Timestamp string  /* we dont actually care about this yet */
 	// Ttl int /* meh */
 }
