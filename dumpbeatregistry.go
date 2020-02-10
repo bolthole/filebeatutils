@@ -45,7 +45,7 @@ func main() {
 
 
 	for _, l := range regentries {
-		 fmt.Println( l.Source, l.Offset l.FileStateOS.Inode, l.FileStateOS.Device)
+		 fmt.Println( l.Source, l.Offset, l.FileStateOS.Inode, l.FileStateOS.Device)
 	}
 	fmt.Println("End of ", Registrypath)
 	os.Exit(1)
